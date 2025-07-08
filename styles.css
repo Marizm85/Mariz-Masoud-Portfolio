@@ -24,6 +24,7 @@ h2::after {
 .hero {
   position: relative;
   text-align: center;
+  background-color: #e5e5e5;
 }
 
 .hero-img {
@@ -57,7 +58,8 @@ h2::after {
 
 .about-img {
   width: 250px;
-  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   border-radius: 12px;
 }
 
@@ -91,6 +93,8 @@ h2::after {
 .project img {
   width: 100%;
   max-width: 280px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
   border-radius: 8px;
   margin-bottom: 10px;
 }
