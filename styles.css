@@ -37,6 +37,7 @@ h2 {
   font-size: 1.8rem;
   position: relative;
   color: #000;
+  margin-top: 80px;
 }
 
 h2::after {
@@ -82,31 +83,28 @@ h3 {
   text-align: left;
 }
 
-/* Projects section */
 .projects {
-  padding: 40px 20px;
+  padding: 60px 20px;
 }
 
-/* Layout for each project */
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
   margin-bottom: 60px;
   align-items: start;
+  text-align: center;
 }
 
-/* Website preview images */
 .project img {
-  width: 300px;
-  aspect-ratio: 4 / 5;
+  width: 320px;
+  aspect-ratio: 5 / 4;
   object-fit: cover;
   border-radius: 8px;
   margin: 0 auto 10px;
   display: block;
 }
 
-/* Links */
 .project a {
   color: #007acc;
   word-break: break-word;
@@ -114,7 +112,6 @@ h3 {
   text-decoration: none;
 }
 
-/* Text blocks */
 .project p {
   font-size: 0.95rem;
   line-height: 1.4;
