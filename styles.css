@@ -1,37 +1,17 @@
-/* General body styling */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #d9d9d9; /* darker gray */
+  background-color: #bfbfbf;
   color: #111;
 }
 
-/* Hero section */
-.hero {
-  position: relative;
+h1 {
   text-align: center;
-  background-color: #e5e5e5;
-  padding-top: 100px; /* pushes content down to prevent cropping */
+  font-size: 2.2rem;
+  margin: 60px auto 40px;
+  color: #111;
 }
 
-.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-.hero-text {
-  position: absolute;
-  top: 60%; /* lowered from 50% */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  color: white;
-  font-weight: bold;
-  text-shadow: 1px 1px 3px #000;
-}
-
-/* Headings */
 h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -56,7 +36,6 @@ h3 {
   margin-bottom: 0.5rem;
 }
 
-/* About section */
 .about-section {
   padding: 40px 20px;
 }
@@ -84,12 +63,10 @@ h3 {
   text-align: left;
 }
 
-/* Projects section */
 .projects {
   padding: 60px 20px;
 }
 
-/* Layout for each project */
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -99,9 +76,9 @@ h3 {
   text-align: center;
 }
 
-/* Website preview images */
 .project img {
-  width: 400px; /* wider size */
+  width: 400px;
+  max-width: 100%;
   aspect-ratio: 5 / 4;
   object-fit: cover;
   border-radius: 8px;
@@ -109,7 +86,6 @@ h3 {
   display: block;
 }
 
-/* Links */
 .project a {
   color: #007acc;
   word-break: break-word;
@@ -117,7 +93,6 @@ h3 {
   text-decoration: none;
 }
 
-/* Text blocks */
 .project p {
   font-size: 0.95rem;
   line-height: 1.4;
