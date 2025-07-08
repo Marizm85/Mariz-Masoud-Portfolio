@@ -1,3 +1,4 @@
+/* General body styling */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -5,23 +6,7 @@ body {
   color: #111;
 }
 
-h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 1.8rem;
-  position: relative;
-  color: #000;
-}
-
-h2::after {
-  content: "";
-  display: block;
-  width: 60px;
-  height: 4px;
-  background-color: teal;
-  margin: 8px auto 0;
-}
-
+/* Hero section */
 .hero {
   position: relative;
   text-align: center;
@@ -45,6 +30,31 @@ h2::after {
   text-shadow: 1px 1px 3px #000;
 }
 
+/* Headings */
+h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+  position: relative;
+  color: #000;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 4px;
+  background-color: teal;
+  margin: 8px auto 0;
+}
+
+h3 {
+  font-size: 1.1rem;
+  color: #000;
+  margin-bottom: 0.5rem;
+}
+
+/* About section */
 .about-section {
   padding: 40px 20px;
 }
@@ -72,10 +82,12 @@ h2::after {
   text-align: left;
 }
 
+/* Projects section */
 .projects {
   padding: 40px 20px;
 }
 
+/* Layout for each project */
 .project {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -84,15 +96,17 @@ h2::after {
   align-items: start;
 }
 
+/* Website preview images */
 .project img {
-  width: 100%;
-  max-width: 250px;
+  width: 300px;
   aspect-ratio: 4 / 5;
   object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 10px;
+  margin: 0 auto 10px;
+  display: block;
 }
 
+/* Links */
 .project a {
   color: #007acc;
   word-break: break-word;
@@ -100,13 +114,8 @@ h2::after {
   text-decoration: none;
 }
 
+/* Text blocks */
 .project p {
   font-size: 0.95rem;
   line-height: 1.4;
-}
-
-.project h3 {
-  font-size: 1.1rem;
-  color: #000;
-  margin-bottom: 0.5rem;
 }
