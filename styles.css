@@ -1,17 +1,16 @@
-/* General body styling */
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #d9d9d9; /* darker gray */
+  background-color: #d9d9d9;
   color: #111;
 }
 
-/* Hero section */
 .hero {
   position: relative;
   text-align: center;
   background-color: #e5e5e5;
-  padding-top: 100px; 
+  padding-top: 100px;
+}
 
 .hero-img {
   width: 100%;
@@ -21,7 +20,7 @@ body {
 
 .hero-text {
   position: absolute;
-  top: 60%; /* lowered from 50% */
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 2rem;
@@ -30,7 +29,6 @@ body {
   text-shadow: 1px 1px 3px #000;
 }
 
-/* Headings */
 h2 {
   text-align: center;
   margin-bottom: 1rem;
@@ -96,7 +94,8 @@ h3 {
 }
 
 .project img {
-  width: 400px; /* updated wider width */
+  width: 400px;
+  max-width: 100%;
   aspect-ratio: 5 / 4;
   object-fit: cover;
   border-radius: 8px;
